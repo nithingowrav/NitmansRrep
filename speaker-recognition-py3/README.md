@@ -1,13 +1,3 @@
-### About
-This project is a simple python3 version of [speaker-recognition](https://github.com/ppwwyyxx/speaker-recognition) and I make a little change for the convenience of command line usage.
-
-### difference with speaker-recognition of python2
-+ Neither use MFCC implementation of bob nor implement that myself. Use the [python_speech_features](https://github.com/jameslyons/python_speech_features) instead.
-+ Remove the GUI and you can only use the command line to train and predict the model. 
-+ Replace the function and class in sklearn which will be removed in the later version.
-+ Use softmax function to output the probability.
-+ convert to mono if the origin audio if stereo.
-
 ### Usage
 ```sh
 usage: speaker-recognition.py [-h] -t TASK -i INPUT -m MODEL
