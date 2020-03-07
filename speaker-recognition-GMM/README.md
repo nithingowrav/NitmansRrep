@@ -17,7 +17,7 @@ Note that wildcard inputs should be *quoted*, and they will be sent to glob modu
 
 Examples:
     Train:
-    ./speaker-recognition.py -t enroll -i "/tmp/person* ./mary" -m model.out
+    ./speaker-recognition.py -t enroll -i "./speaker_name/*.wav" -m model.out
 
     Predict:
     ./speaker-recognition.py -t predict -i "./*.wav" -m model.out
