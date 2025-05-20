@@ -1,0 +1,6 @@
+pretrained_models/
+__pycache__/
+*.pyc
+*.so
+*.DS_Store
+Test_results.txt
