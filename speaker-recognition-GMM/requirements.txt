@@ -12,5 +12,8 @@ scipy==0.18.1
 simplegeneric==0.8.1
 six==1.10.0
 sklearn==0.0
+speechbrain
+torch
+torchaudio
 traitlets==4.3.1
 wcwidth==0.1.7
